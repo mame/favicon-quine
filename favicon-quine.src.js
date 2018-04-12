@@ -11,5 +11,5 @@
 	fillText(E('PROLOGUE(')+Q+E(')(0)EPILOGUE'),-n/2,0)
     }
     D.getElementById('l').href=a.toDataURL();
-    D.onkeydown=function(e){Q(n+((e.which+2)%3-1)*8)};
+    D.onkeydown=function(e){Q(n+((e.which+2)%3-1)*4)};
 })(0)
